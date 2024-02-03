@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0px;
+    height: 100vh;
+}
+
+.board {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    height: 100vh;
+}
+
+.issues-container {
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.issues-container::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.issue-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.issue-card:last-child {
+    margin-bottom: 0px;
+}
+
+.transaction-date {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

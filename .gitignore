@@ -1,0 +1,7 @@
+node_modules
+dist
+elm-stuff
+.parcel-cache
+
+# Local Netlify folder
+.netlify

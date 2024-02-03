@@ -1,0 +1,22 @@
+{
+  "name": "Schatzmeister",
+  "version": "1.0.0",
+  "description": "Finanzübersicht und Auswertung",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "elm": "elm",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Tom Scheler",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.11.0",
+    "@parcel/transformer-elm": "^2.10.3",
+    "@parcel/transformer-webmanifest": "^2.11.0",
+    "elm": "^0.19.1-6",
+    "netlify-cli": "^17.15.7",
+    "parcel": "^2.10.3"
+  }
+}
